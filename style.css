@@ -1,0 +1,58 @@
+	body {
+		background-color: #FFC971;
+		animation: fadeIn;
+		animation-duration: 2s;
+	}
+
+	img {
+		width: 300px;
+	}
+
+	img:hover {
+		animation: tada;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	a {
+		color: #7B3300;
+	}
+
+	th {
+		text-align: center;
+	}
+
+	td {
+		text-align: justify;
+		vertical-align: middle;
+	}
+
+	.header h1 {
+		font-family: "Dancing Script";
+		text-align: center;
+		color: #BC4F00;
+		background-color: #FFB627;
+		padding: 30px;
+		margin-bottom: 50px;
+		border-radius: 20px;
+	}
+
+	.table-bordered {
+		border-radius: 20px;
+		overflow: hidden;
+	}
+
+	footer {
+		font-family: "Dancing Script";
+		text-align: center;
+		color: #BC4F00;
+		background-color: #FFB627;
+		padding: 15px;
+		bottom: 0;
+		position: fixed;
+		width: 100%;
+	}
